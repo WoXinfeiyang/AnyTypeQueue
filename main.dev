@@ -1,0 +1,41 @@
+[Project]
+FileName=C:\Documents and Settings\Administrator\桌面\队列(可在队列中插入任意类型结点)_20140620_01\main.dev
+Name=main
+Ver=2
+IsCpp=1
+Type=1
+Compiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS 
+CppCompiler=-D__GNUWIN32__ -W -DWIN32 -DNDEBUG -D_CONSOLE -D_MBCS 
+Includes=
+Linker=-lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lodbc32 -lodbccp32 
+Libs=
+UnitCount=4
+Folders=
+[Unit1]
+FileName=./main.c
+Folder=
+Compile=1
+CompileCpp=0
+Link=1
+Priority=1000
+[Unit2]
+FileName=./MCQueue.c
+Folder=
+Compile=1
+CompileCpp=0
+Link=1
+Priority=1000
+[Unit3]
+FileName=./MCQueue.h
+Folder=
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
+[Unit4]
+FileName=./Typedef.h
+Folder=
+Compile=1
+CompileCpp=1
+Link=1
+Priority=1000
